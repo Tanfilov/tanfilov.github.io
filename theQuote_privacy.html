@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Politika privatnosti — {{NAZIV_APLIKACIJE}}</title>
+  <meta name="description" content="Politika privatnosti za {{NAZIV_APLIKACIJE}} — kako prikupljamo, koristimo i štitimo vaše podatke.">
+  <style>
+    :root{--bg:#f7f8fb;--card:#ffffff;--accent:#0b67d0;--text:#0b1720}
+    body{font-family:Inter,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;padding:24px}
+    .container{max-width:900px;margin:0 auto}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    header h1{font-size:20px;margin:0}
+    .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(11,23,32,0.06);margin-bottom:16px}
+    h2{margin-top:0}
+    p,li{line-height:1.55}
+    ul{padding-left:1.1rem}
+    .muted{color:#556270;font-size:14px}
+    .meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .small{font-size:13px}
+    footer{margin-top:24px;text-align:center;color:#6b7785;font-size:13px}
+    @media (max-width:600px){body{padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div style="width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#2aa4f4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700">LOGO</div>
+      <div>
+        <h1>Politika privatnosti — {{NAZIV_APLIKACIJE}}</h1>
+        <div class="muted small">Poslednja izmena: <strong>23. novembar 2025.</strong></div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>1. Uvod</h2>
+      <p>Dobrodošli u <strong>{{NAZIV_APLIKACIJE}}</strong>. Ova politika privatnosti objašnjava koje podatke prikupljamo, kako ih koristimo i koja prava imate u vezi sa vašim podacima. Molimo vas da pažljivo pročitate ovu politiku.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. Ko smo mi</h2>
+      <p><strong>{{NAZIV_APLIKACIJE}}</strong> je agregator vesti koji prikuplja sadržaj iz javno dostupnih izvora (RSS feedovi, javni API-ji) i omogućava čitanje, ocenjivanje i slušanje članaka. Kontakt: <a href="mailto:{{KONTAKT_EMAIL}}">{{KONTAKT_EMAIL}}</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. Koje podatke prikupljamo</h2>
+      <ul>
+        <li><strong>Automatski prikupljeni:</strong> IP adresa (anonimizovana kad je moguće), tip uređaja, OS, verzija aplikacije, podaci o sesijama i korišćenju (klikovi, stranice, vremenski žigovi).</li>
+        <li><strong>Podaci koje dobrovoljno date:</strong> ime/korisničko ime, email, lozinka (hashed), ocene i komentari koje ostavite.</li>
+        <li><strong>Podaci iz javnih izvora:</strong> naslovi, sažeci i metapodaci članaka iz RSS feedova i API-ja.</li>
+        <li><strong>Kolačići i slične tehnologije:</strong> session ID, preferencije prikaza i podešavanja.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Kako koristimo podatke</h2>
+      <ul>
+        <li>Isporučivanje i prikaz vesti.</li>
+        <li>Personalizacija preporuka i redosleda sadržaja.</li>
+        <li>Analitika i poboljšanje proizvoda.</li>
+        <li>Sigurnost — otkrivanje i sprečavanje zloupotreba.</li>
+        <li>Slanje obaveštenja ili emailova, samo ako ste se prijavili.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Pravna osnova</h2>
+      <p>Obrada podataka zasniva se na kombinaciji: vašeg pristanka (gdje je potrebno), izvršenju usluge (ugovor), legitimnom interesu (npr. analitika, sigurnost) i ispunjenju zakonskih obaveza.</p>
+    </section>
+
+    <section class="card">
+      <h2>6. Deljenje podataka</h2>
+      <p>Moguće deljenje sa:</p>
+      <ul>
+        <li>pružateljima usluga (hosting, analitika, slanje emailova, push notifikacije);</li>
+        <li>oglašivačima i reklamnim mrežama (samo uz pristanak gde je to zakonski potrebno);</li>
+        <li>nadležnim organima po zakonskom zahtevu; i
+        <li>u slučaju poslovnih transfera (spajanje, akvizicija).</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>7. Kolačići</h2>
+      <p>Korišćenjem usluge prihvatate naše kolačiće u skladu sa podešavanjima. Kolačići služe za:</p>
+      <ul>
+        <li>neophodnu funkcionalnost (autentikacija, sigurnost),</li>
+        <li>pamtljenje preferencija,</li>
+        <li>analitiku i poboljšanje usluge,</li>
+        <li>oglašavanje (opciono, samo uz pristanak).</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. Čuvanje podataka</h2>
+      <p>Obično čuvamo tehničke i analitičke zapise 12–24 meseca. Nalozi i profili se čuvaju dok imate nalog ili dok ne zatražite brisanje. Komentari i ocene zadržavamo dok ih ne obrišete ili dok zakon ne zahteva drugačije.</p>
+    </section>
+
+    <section class="card">
+      <h2>9. Vaša prava</h2>
+      <p>U skladu sa važećim zakonima imate pravo na pristup, ispravku, brisanje, ograničenje obrade, prigovor i prenosivost podataka. Za zahteve kontaktirajte: <a href="mailto:{{KONTAKT_EMAIL}}">{{KONTAKT_EMAIL}}</a>. Odgovorićemo u roku predviđenom zakonima (obično 30 dana).</p>
+    </section>
+
+    <section class="card">
+      <h2>10. Sigurnost</h2>
+      <p>Primjenjujemo standardne tehničke i organizacione mere (HTTPS, šifrovanje lozinki, pristup po principu najmanjih privilegija). Iako preduzimamo mere, nijedan sistem nije potpuno bezbedan; o incidentima ćemo vas obavestiti ako zakoni to zahtevaju.</p>
+    </section>
+
+    <section class="card">
+      <h2>11. Podaci dece</h2>
+      <p>Servis nije namenjen deci mlađoj od 16 godina. Ako saznamo da smo nenamerno prikupili podatke deteta, preduzećemo korake za brisanje.</p>
+    </section>
+
+    <section class="card">
+      <h2>12. Međunarodni transfer</h2>
+      <p>Podaci mogu biti preneti izvan vaše jurisdikcije (npr. serveri provide-ra). U takvim slučajevima primenjivaćemo odgovarajuće zaštitne mere (ugovorne klauzule, pseudonimizacija).</p>
+    </section>
+
+    <section class="card">
+      <h2>13. Kontakt</h2>
+      <p>Ako imate pitanja ili želite da ostvarite svoja prava, pišite nam na: <a href="mailto:{{KONTAKT_EMAIL}}">{{KONTAKT_EMAIL}}</a> ili pošaljite pismo na adresu: {{FIZICKA_ADRESA}}.</p>
+    </section>
+
+    <section class="card">
+      <h2>14. Promene u politici</h2>
+      <p>Ova politika može biti ažurirana. Značajne promene ćemo istaknuti u aplikaciji ili poslati emailom. Proveravajte datum "Poslednja izmena" na vrhu stranice.</p>
+    </section>
+
+    <footer>
+      <div class="meta">
+        <div class="small">© {{GODINA}} {{NAZIV_APLIKACIJE}}</div>
+        <div>
+          <a class="btn btn-primary" href="/">Nazad na početnu</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
